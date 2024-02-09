@@ -83,18 +83,6 @@ Javascript Data Types
 
 
 /*
-Javascript Function
-
-- Function block of code designed to perform a particular task again and again
-- code reusablility
-- DRY principal
-
-- parameter listed inside the function defination
-- arguments are actual values recieved by function when it id invoked
-*/
-
-
-/*
 Javascript object
 
 - object is collections of Properties
@@ -114,20 +102,108 @@ Javascript String
 */
 
 /*
+Javascript Array
 
+- array is linear data strucutre which hold multiple data/value in single variable
+- creating by using ==> [value1, value2,...]
+- new Array(value1, value2, ...)
+- array are special type of object 
 */
 
 
 /*
+Javascript Conditions
 
+- perform different action based on condition
+- if ==> block of code to be executed, if condition is true
+- else ==> block of code to be executed, if same condition is false
+- else if ==> specify new condition to test, if first condition is false
+- switch  ==> specify many aleternative block of code to be executed
 */
 
 
 /*
+javascript loops
 
+- block of code can be executed number of times.
+- js support different kind of loop
+1. for ==> number of time to execute block of code
+2. for/in ==> loop through the properties of object
+3. for/of ==> loop through the value of an iterable object
+4. while ==> simple loop untile condition is true
+5. do/while ==> 
 */
 
 
 /*
+Javascript Error
 
+- try ==> statement define a code of block to run
+- catch ==> statement define code a block to handle any error
+- finally ==> statement define  code a block to run any how
+- throw ==> define the custome error
+*/
+
+
+
+/*
+Javascript Scope
+
+- scope define the visibility of the variables
+1. block scope ==> {} // you can not access the variables outside of the block
+2. functional scope
+    - eact function create new scope 
+    - variables define inside a function can not accessible outside the fuction
+    - functional scope also known as local scope
+3. global scope
+    - variable accessible from anywhere
+*/
+
+
+/*
+Javascript this keyword
+
+- thid keyword refers to an object
+- alone, this refers to global object
+- in an event, this refer to the element that recieved the event
+- in function, in use strict mode this refers undefined
+*/
+
+
+/*
+Javascript Fuctions
+
+- Function block of code designed to perform a particular task again and again
+- code reusablility
+- DRY principal
+
+- parameter listed inside the function defination
+- arguments are actual values recieved by function when it id invoked
+
+- arrow function
+    - shorter syntaxt of function
+    - arrow function return value by default
+    - with the arrow function there is no binding of this keyword
+*/
+
+
+/*
+Javascript Classes
+
+- js classes are template for js object
+- create a clsas using class keyword
+- js class have constructor() method
+- js class is not object
+
+- constructor()
+    - it is executed automatically when new object created
+    - it is used to initialized object properties
+    - if you don't define constructor method, js will automatically add an empty constructor method
+*/
+
+
+/*
+Javascript Modules
+
+- 
 */
