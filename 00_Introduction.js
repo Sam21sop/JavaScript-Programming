@@ -79,6 +79,9 @@ Javascript Data Types
 6. Object
 7. Symbol
 8. Bigint(rarely use case)
+
+- primitive (immutable data types) ==> string, number, boolean, undefined, null, symbol, bigint
+- non-primitive (Mutable data types) ==> function, object, array
 */
 
 
@@ -205,5 +208,75 @@ Javascript Classes
 /*
 Javascript Modules
 
-- 
+- js modules aloow you to break up code into separate file
+- this is easy to maintain code base
+- js module store functions and variable in external file
+- modules imported using import statement
+- there are two types of export: names export and default exports
+*/
+
+
+/*
+Javascript Object
+
+- in javascript, everything is an object
+- object written in the form of key:value pair
+- JS object is collection of named value
+- the named values in js object are called properties
+- object properties can be both primitive values, other object and function 
+- javascript object are mutable
+
+Object Properties
+    - property are the value associated with a js object
+    - it is collection of unordered properties
+    - property can useully be changed, added, deleted but some are read only
+    - accessing properties: object.propertyName or object["propertyName"]
+
+Object Method
+    - method are functions stored as object properties
+    - access object method: objectName.methodName()
+
+Object Prototype
+    - all js object inherit properties and methods from prototype
+    - js prototype property allow us to add new properties to object constructor
+    - syntax: objectName.prototype.propertyName = propertyValue
+    - js prototype allow us to add new method to object constructor
+    - syntax: objName.prototype.methodName = function(){
+        return this.propertyName;
+    }
+*/
+
+
+/*
+Javascript Function
+
+- Function Declaration
+    - function functionName(parameters){
+        // code to be executed
+    }
+
+- anonymous function
+    - function(parameter){
+        // code to be executed
+    };
+    - it is also called nameless function
+
+- self-Invoking function
+    - (function(){
+        // code to be executed
+    })();
+
+- Arrow Function
+    - const x = (parameters) => {
+        // code to be executed
+    }
+*/
+
+
+/*
+Javascript Function Parameter and Arguments
+
+- parameter are the name listed in the function defination
+- argument are the real value passes to the function
+
 */
